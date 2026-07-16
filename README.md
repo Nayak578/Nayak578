@@ -1,5 +1,7 @@
 <div align="center">
-
+<div align="center">
+  <img src="assests/banner.png" width="100%">
+</div>
 # Hi 👋, I'm Aadarsh Nayak
 
 ### Data Engineer | Software Engineer | Game Developer

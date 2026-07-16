@@ -19,7 +19,7 @@
 
 ## 🧑‍💻 About Me
 
-- 🎓 B.Tech in **Computer Science and Engineering**, Indian Institute of Information Technology (IIIT), Jabalpur — CGPA: **8.20**
+- 🎓 B.Tech in **Computer Science and Engineering**, Indian Institute of Information Technology (IIIT), Jabalpur — CGPA: **8.30**
 - 💼 Currently working as an **AEH / Advanced Engineering Analyst Intern (Custom Software Engineer — Data Engineer)** at **Accenture**
 - ⚙️ I engineer **automated data pipelines** using Databricks, PySpark, and Delta Lake (Medallion Architecture: Bronze → Silver → Gold)
 - 🎮 I also design and build **games in Unity**, with wins at national-level hackathons and game jams
@@ -88,7 +88,7 @@
 |---|---|---|---|
 | **TracePointer** — Virtual Whiteboard System | Transforms a passive laser pointer into a wireless computer mouse using a low-latency OpenCV tracking pipeline and an ESP32-based USB HID receiver. | `Python` `OpenCV` `ESP32` `USB HID` | [Repo](#) |
 | **YouTube View Predictor & Analyzer** | End-to-end ML pipeline using regression models to forecast video performance, with feature engineering on tags, duration, and views, visualized in a front-end dashboard. | `Python` `Scikit-Learn` `Pandas` | [Repo](https://github.com/Nayak578/Youtube-Trend-Analyzer) |
-| **Insticon** — 3D Multiplayer Campus Explorer 🏆 *Winner, MLH Hackbyte 3.0* | Scalable 3D multiplayer simulation of the IIIT Jabalpur campus supporting 10-20 concurrent users, with authoritative server-side sync via Unity Netcode. | `Unity` `C#` `Netcode` | [Repo](#) · [Play](https://nyk-aadarsh.itch.io) |
+| **Insticon** — 3D Multiplayer Campus Explorer 🏆 *Winner, MLH Hackbyte 3.0* | Scalable 3D multiplayer simulation of the IIIT Jabalpur campus supporting 10-20 concurrent users, with authoritative server-side sync via Unity Netcode. | `Unity` `C#` `Netcode` | [Repo](https://github.com/DIVI-Hectic4U/InstiCon) · [Play](https://nyk-aadarsh.itch.io) |
 | **YDIA (You Did It Again)** — Arcade Logic Game 🏆 *Winner, IGDC NexusForge* | Rapid cognitive-switching arcade game built on complex C# state machines, testing player attention and reflexes via dynamic rule inversions. | `Unity` `C#` | [Repo](#) · [Play](https://nyk-aadarsh.itch.io) |
 | **Project Echo** — 3D Puzzle Platformer | Narrative-driven sci-fi noir puzzle platformer built in 72 hours for GMTK Game Jam, featuring a "death is progress" mechanic using time-delayed player "Echo" clones. | `Unity` `C#` `State Management` | [Repo](#) · [Play](https://nyk-aadarsh.itch.io) |
 | **ReTrubble** — 2D Arcade Action Game | Physics-based homage to "Bubble Trouble" built for BYOG Jam, featuring a dynamic entity-fusion system for merging and color-switching hazards. | `Unity` `C#` | [Repo](#) · [Play](https://nyk-aadarsh.itch.io) |
@@ -101,8 +101,8 @@
 
 - 🥇 **Winner, MLH Hackbyte 3.0 (2025)** — 1st place in Central India's largest hackathon (Insticon Project)
 - 🥇 **Winner, IGDC NexusForge Game Jam (2025)** — Ranked 1st for innovation and gameplay design (YDIA)
-- 💻 **LeetCode** — Solved **500+** algorithmic problems; contest rating **1750+**
-- ⭐ **CodeChef 3-Star** — Active competitive programmer
+- 💻 **[LeetCode](https://leetcode.com/u/aadarshnayak/)** — Solved **500+** algorithmic problems; contest rating **1750+**
+- ⭐ **[CodeChef 3-Star](https://www.codechef.com/users/nky_aadarsh)** — Active competitive programmer
 
 ---
 

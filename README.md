@@ -138,8 +138,6 @@ Class XII — 85.8% · Class X — 90.6%
 
 <div align="center">
 
-![Aadarsh's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nayak578&show_icons=true&theme=default&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nayak578&layout=compact&hide_border=true)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Nayak578&hide_border=true)
 
 </div>

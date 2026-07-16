@@ -1,0 +1,47 @@
+name: Update README Last Modified Timestamp
+
+# This workflow keeps a "Last Updated" timestamp in the README fresh.
+# It runs automatically on a schedule and whenever you push changes,
+# so visitors always see the profile is actively maintained.
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Runs once a week (every Monday at 00:00 UTC)
+    - cron: "0 0 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-timestamp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update "Last Updated" line in README
+        run: |
+          TIMESTAMP=$(date -u '+%B %d, %Y %H:%M UTC')
+          # Replace the line that starts with "_Last updated:" or insert one
+          # if it doesn't exist yet. This expects a marker line in README.md
+          # like: <!-- LAST-UPDATED -->
+          if grep -q "<!-- LAST-UPDATED -->" README.md; then
+            sed -i "s|<!-- LAST-UPDATED -->.*|<!-- LAST-UPDATED --> _Last updated: ${TIMESTAMP}_|" README.md
+          else
+            echo "" >> README.md
+            echo "<!-- LAST-UPDATED --> _Last updated: ${TIMESTAMP}_" >> README.md
+          fi
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md || (
+            git add README.md
+            git commit -m "chore: auto-update last modified timestamp [skip ci]"
+            git push
+          )
